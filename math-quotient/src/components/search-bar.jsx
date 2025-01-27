@@ -4,7 +4,7 @@ import { Search } from 'lucide-react';
 const SearchBar = ({ value, onChange }) => {
   return (
     <div className="flex justify-center w-full">
-      <div className="w-3/4 bg-white p-2 rounded-2xl border border-gray-300">
+      <div className="w-[90%] bg-white p-2 rounded-2xl border border-gray-300">
         <div className="relative">
           <input
             type="text"
@@ -13,7 +13,7 @@ const SearchBar = ({ value, onChange }) => {
             value={value}
             onChange={onChange}
           />
-          <button className="absolute right-2 top-1/2 -translate-y-1/2 p-3 bg-green-500 rounded-xl hover:bg-green-600 transition-colors">
+          <button className="absolute right-2 top-1/2 -translate-y-1/2 p-2.5 bg-red-400 rounded-full hover:bg-green-600 transition-colors">
             <Search className="h-5 w-5 text-white" />
           </button>
         </div>

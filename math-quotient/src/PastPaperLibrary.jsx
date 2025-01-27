@@ -111,7 +111,7 @@ const PastPaperLibrary = () => {
             animation: moveLeft 80s linear infinite;
           }
           .animate-float {
-            animation: floatUpDown 4s ease-in-out infinite;
+            animation: floatUpDown 8s ease-in-out infinite;
           }
         `}
       </style>
@@ -166,7 +166,7 @@ const PastPaperLibrary = () => {
           </p>
         </div>
 
-        <div className="mb-8 space-y-6">
+        <div className="mb-8 space-y-10">
           <SearchBar 
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
